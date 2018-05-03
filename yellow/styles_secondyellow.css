@@ -1,0 +1,168 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: yellow;
+}
+
+.title {
+	font-family: "Times";
+	font-size: 200px;
+	font-weight: bolder;
+	-webkit-text-fill-color: yellow; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+ 	position: absolute;
+ 	white-space: nowrap;
+ 	width: 65%;
+ 	height: 300px;
+ 	margin: auto;
+ 	top: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	left: 0;
+ 	text-align: center;
+ 	letter-spacing: -20px;
+ 	z-index: 20;
+ 	
+}
+
+.man {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 480px;
+	overflow-y: hidden;
+	pointer-events: none;
+
+}
+
+#manfoldinglaundry {
+	display: none;
+}
+
+#manhammering {
+	display: none;
+}
+
+#mandoingdishes {
+	display: none;
+}
+
+#mandoingtaxes {
+	display: none;
+}
+
+#manmowing {
+	display: none;
+}
+
+#mansawing {
+	display: none;
+}
+
+#mantakingouttrash {
+	display: none;
+}
+
+#manwateringplants {
+	display: none;
+}
+
+#manjogging {
+	display: none;
+}
+
+
+#towel {
+	position: absolute;
+	bottom: 3%;
+	right: 15%;
+	width: 500px;
+}
+
+#towel:hover {
+	transform: rotate(7deg);
+}
+
+#saw {
+	top: 7%;
+	left: 1%;
+	width: 400px;
+}
+
+#saw:hover {
+	transform: rotate(-12deg);
+}
+
+#tax {
+	top: -6%;
+	left: 24%;
+	width: 400px;
+}
+
+#tax:hover {
+	transform: rotate(17deg);
+}
+
+#plantone{
+	bottom: 3%;
+	left: 27%;
+	width: 400px;
+}
+
+#plantone:hover {
+	transform: rotate(-165deg);
+}
+
+
+#hammer {
+	bottom: 26%;
+	right: 2%;
+	width: 400px;
+}
+
+#hammer:hover {
+	transform: rotate(-20deg);
+}
+
+#garbage {
+	bottom: 0;
+	left: 2%;
+	width: 400px
+}
+
+#garbage:hover {
+	transform: rotate(-30deg);
+}
+
+#nike {
+	top: 0;
+	right: 0;
+	width: 400px;
+}
+
+#nike:hover {
+	transform: rotate(15deg);
+}
+
+
+#dirtyplate {
+	top: 0%;
+	right: 26%;
+	width: 400px;
+}
+
+#dirtyplate:hover {
+	transform: rotate(40deg);
+}
+
+
+.object {
+	position: absolute;
+}

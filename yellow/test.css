@@ -1,0 +1,11 @@
+#manfoldinglaundry{
+	display: none;
+}
+
+#towel:hover {
+	transform: rotate(20deg);
+}
+
+#towel:hover + #manfoldinglaundry{
+	display: inline-block;
+}

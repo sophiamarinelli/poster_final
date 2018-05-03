@@ -1,0 +1,119 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica";
+	font-weight: lighter;
+	
+}
+
+body {
+	background-color: #b057f9;
+}
+
+.scrolltext {
+	position: relative;
+	border-bottom: 2px solid black;
+	letter-spacing: -15px;
+	white-space: nowrap;
+	line-height: 80%;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	padding: 5px;
+	height: 160px;
+	width: 100%;
+	font-size: 200px;
+	z-index: 1;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+#talk:hover {
+	background-color: white;
+	
+}
+
+#intro:hover {
+	background-color: white;
+	
+}
+
+#time:hover {
+	background-color: white;
+}
+
+#chat:hover {
+	background-color: white;
+}
+
+#walk:hover {
+	background-color: white;
+}
+
+#phone:hover {
+	background-color: white;
+}
+
+
+.smalltext {
+	font-size: 40px;
+	letter-spacing: 0px;
+	line-height: 0;
+	text-align: center;
+}
+
+::-webkit-scrollbar {
+	height: 2px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid black;
+}
+
+::-webkit-scrollbar-thumb { 
+    border: 1px solid black;
+}
+
+#boxshadow {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+/*	background-color: red;*/
+	position: absolute;
+	z-index: 100000000000;
+	pointer-events: none;
+	
+}
+
+#populate {
+	position: absolute;
+	font-size: 50px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+}
+
+/*#hoverimage {
+	width: 300px;
+	position: relative;
+}
+*/
+
+#hoverimage {
+	position: absolute;
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}

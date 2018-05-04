@@ -87,9 +87,14 @@ img {
 	color: white;
 	width: 100%;
 	text-align: center;
-	font-size: 80px;
+	font-size: 70px;
 	position: fixed;
 	bottom: 5%;
 	display: none;
 	pointer-events: none;
+}
+
+.caption {
+	width: 60%;
+
 }

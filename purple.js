@@ -47,7 +47,7 @@ $("#chat").mouseleave(function(){
 
 $("#chat").mouseover(function(){
   $("#boxshadow").show()
-  $("#populate").html("Sandra")
+  $("#populate").html("Classmates")
   $("#hoverimage").css("background-color", "pink") 
 });
 

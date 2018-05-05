@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+.advance {
+	width: 100%;
+	height: 100vh;
+}
+
+.title {
+	position: absolute;
+	width: 800px;
+	font-family: "helvetica";
+	font-weight: lighter;
+	font-size: 200px;
+	text-align: center;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+}
+
+.arrowbox {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right:0;
+	bottom: 20%;
+	width: 200px;
+	height: 80px;
+}
+
+.arrowbox .arrowlength{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 80%;
+	height: 10%;
+	background-color: white;
+}
+
+.arrowbox .arrowtop{
+	position: absolute;
+	right: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid white;
+	width: 0;
+	height: 0;
+}
+
+.popup {
+	width: 1500px;
+	height: 400px;
+	background-color: black;
+	color: white;
+	font-family: "helvetica";
+	font-weight: lighter;
+	font-size: 150px;
+	text-align: center;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom:0;
+	right: 0;
+	left: 0;
+	display: none;
+	pointer-events: none;
+
+}
+
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.linkhover {
+	width: 1500px;
+	height: 400px;
+	background-color: transparent;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+}
+
+.box {
+	width: 33%;
+	height: 400px;
+	position: relative;
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.type {
+	width: 400px;
+	font-size: 20px;
+	font-family: 'Helvetica';
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	font-weight: lighter;
+}
+
+.viewer {
+	width: 100%;
+	height: 100vh;
+
+}
+
+.header {
+	position: relative;
+	height: 30px;
+	font-family: 'Helvetica';
+	font-weight: lighter;
+	display:inline-block;
+	font-size: 20px;
+	width: 98%;
+	padding: 5px;
+}
+
+#name {
+	position: absolute;
+	white-space: nowrap;
+}
+
+#twitter {
+	position: absolute;
+	white-space: nowrap;
+	right: 0px;
+}

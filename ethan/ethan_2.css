@@ -1,0 +1,130 @@
+* {
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+body, html{
+	/*cursor: url(./cursor.png) 18 18,auto !important;*/
+	/*cursor: url(cursor.png) 2 2, pointer;*/
+	cursor: none;
+}
+
+
+.header {
+	position: fixed;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 30px;
+	font-family: 'Helvetica';
+	font-weight: lighter;
+	display: inline-block;
+	font-size: 20px;
+	width: 95%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#name {
+	position: absolute;
+	white-space: nowrap;
+}
+
+#twitter {
+	position: absolute;
+	white-space: nowrap;
+	right: 0px;
+}
+
+.type {
+	position: absolute;
+	font-size: 100px;
+	text-align: center;
+	margin: auto;
+	top: -20%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 900px;
+	height: 100px;
+	font-family: "helvetica";
+	font-weight: lighter;
+}
+
+.arrowbox {
+	position: absolute;
+	width: 200px;
+	height: 80px;
+}
+
+.arrowbox .arrowlength {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 80%;
+	height: 10%;
+	background-color: black;
+}
+
+.arrowbox .arrowtop {
+	position: absolute;
+	right: 0;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 40px solid black;
+	width: 0;
+	height: 0;
+}
+
+.info {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: 'Helvetica';
+	font-weight: lighter;
+	font-size: 20px;
+	height: 40px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+#three {
+	position: absolute;
+	margin: auto;
+	top: -50%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 900px;
+	height: 100px;
+}
+
+#five {
+	position: absolute;
+	margin: auto;
+	top: -60%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 900px;
+	height: 100px;
+}
+
+#six {
+	position: absolute;
+	margin: auto;
+	top: -50%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 900px;
+	height: 100px;
+}
